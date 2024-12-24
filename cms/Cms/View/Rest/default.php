@@ -1,0 +1,1 @@
+<?php if(isset($rest) && is_object($rest)) echo $rest->toJson(); ?>

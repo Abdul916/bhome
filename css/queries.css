@@ -1,0 +1,57 @@
+p {
+  padding: 10px;
+  background: #aaa;
+  color: white;
+}
+
+.phone-up {
+  background: purple;
+}
+
+@media (max-width: 599px) {
+  .phone-only {
+    background: purple;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+  .tablet-portait-only {
+    background: purple;
+  }
+}
+
+@media (min-width: 600px) {
+  .tablet-portrait-up {
+    background: purple;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+  .tablet-landscape-only {
+    background: purple;
+  }
+}
+
+@media (min-width: 900px) {
+  .tablet-landscape-up {
+    background: purple;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1799px) {
+  .desktop-only {
+    background: purple;
+  }
+}
+
+@media (min-width: 1200px) {
+  .desktop-up {
+    background: purple;
+  }
+}
+
+@media (min-width: 1800px) {
+  .big-desktop-up {
+    background: purple;
+  }
+}

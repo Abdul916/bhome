@@ -1,0 +1,17 @@
+{
+    "name": "hectorcenteno/formmail",
+    "autoload": {
+        "psr-4": {
+            "App\\Formmail\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hector Abimael Centeno Barba",
+            "email": "hector@dommo.mx"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6"
+    }
+}

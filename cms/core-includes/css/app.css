@@ -1,0 +1,1052 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+table {
+	border-collapse: collapse;
+}
+table tr td {
+	vertical-align: top;
+}
+div.clear {
+	display: block;
+	clear: both;
+}
+ul.vlist {
+	list-style-image: none;
+	list-style-type: none;
+	list-style-position: outside;
+}
+ul.vlist li {
+	float: left;
+}
+
+ul.grid {
+	
+}
+ul.grid li {
+	float: left;
+}
+.topborder {
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+}
+
+#page {
+	margin: 10px 35px 20px 35px;
+}
+#content {
+}
+#app {
+	font-family: Arial;
+}
+#app div.content h2.bc a:visited,
+#app div.content h2.bc a:link {
+	color: #666;
+	text-decoration: none;
+}
+#app div.content h2.bc a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+#app div#tabs {
+	border-bottom: 1px solid #CCCCCC;
+	margin-bottom: 5px;
+	padding-left: 5px;
+}
+#app div#tabs ul {
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#app div#tabs ul li {
+	border-bottom: medium none;
+	float: left;
+}
+#app div#tabs ul li a {
+	color: #444444;
+	border-width: 1px 1px 0px;
+	border-color: #CCCCCC #CCCCCC;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	display:block;
+	padding:5px 10px;
+	outline:none;
+	background:#f1f1f1;
+	border:1px solid #ccc;
+	border-bottom:none;
+	margin:4px 0px 0px 2px;
+	
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-topright:3px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-top-right-radius:3px;
+}
+
+div#tabs ul li a:link,
+div#tabs ul li a:visited,
+div#tabs ul li a:active{
+	color:#444;
+	}
+#app div#tabs ul li a:hover {
+	color:#222;
+	background:#e1e1e1;
+}
+#app div#tabs ul li a.selected {
+	background:#fff;
+	color: #1c1c1c;
+	margin-top:0px !important;
+	border-bottom:1px solid #fff;
+	margin-bottom:-1px;
+	padding-top: 9px;
+}
+/* ELEMENTOS */
+
+#page #header {
+	width: 100%;
+	overflow: auto;
+	font-family: Helvetica,"Trebuchet MS",Helvetica,Arial,sans-serif;
+}
+#page #header h1 {
+	background: transparent url(../public/images/logo.gif) no-repeat scroll left top;
+	float: left;
+	width: 249px;
+	height: 99px;
+	margin: 0px;
+}
+#page #header h1 a {
+	display: block;
+	border: 0;
+	text-indent: -9999px;
+	width: 249px;
+}
+
+#page #header h2 {
+	float: right;
+	margin-left: 15px;
+	font-size: 13px;
+	color: #666666;
+}
+#page #header h2 a {
+	font-size: 12px;
+	color: #409BDC;
+}
+
+#page #header.login {
+	width: 640px;
+	margin: 40px auto;
+	overflow: visible;
+}
+#page #header.login h1 {
+	background: transparent url(../public/images/logo.jpg) no-repeat scroll center top;
+	float: none;
+	display: block;
+	width: 100%;
+}
+
+#page #mainnav {
+	padding-top: 20px;
+}
+#page #mainnav ul.nav {
+	overflow: auto;
+	border-bottom: solid 3px #409BDC;
+	margin: 0px;
+	padding: 0px;
+}
+#page #mainnav ul.nav li {
+	display: block;
+	width: auto;
+	padding: 0px;
+	margin-right: 5px;
+}
+#page #mainnav ul.nav li.right {
+	float: right;
+	margin-right: 0px;
+}
+
+#page #mainnav ul.nav li a {
+	color: #555555;
+	font-size: 18px;
+	font-family: Helvetica,"Trebuchet MS",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+}
+#page #mainnav ul.nav li a:hover {
+	color: #222222;
+	background-color: #EEEEEE;
+}
+
+/*#page #mainnav ul.nav li a.current {
+	
+}*/
+#page #mainnav ul.nav li a.current {
+	background-color: #F1F1F1;
+}
+#app div.form div.nav {
+	padding: 0px 0px 0px 10px;
+	display: block;
+	clear: both;
+}
+#app div.form div.nav ul {
+	font-size: 14px;
+	font-weight: bold;
+	list-style-image: none;
+	list-style-type: none;
+	list-style-position: outside;
+	margin: 0px;
+	padding: 0px;
+	overflow: auto;
+}
+#app div.form div.nav ul li {
+	float: left;
+}
+#app div.form div.nav ul li a {
+	font-size: 14px;
+	padding: 10px 15px;
+	text-decoration: none;
+	background: #F5F5F5 none repeat scroll 0 0;
+}
+#app div.form div.nav ul li a.tab {
+	
+}
+#app div.form div.nav ul li a.selected {
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	
+	display: block;
+	background: #409BDC url(../images/navigation-lightbg-all.png) repeat-x scroll center top;
+	color: #FFF;
+	text-shadow: -1px -1px 0 #2085F2;
+}
+
+/* CAJA DE BUSQUEDA */
+#page #mainnav .nav .right #head-search {
+	background: none repeat scroll 0 0 #E5E5E5;
+	height: 35px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	margin: 0px;
+}
+#page #mainnav .nav .right #head-search p {
+	margin: 0px;
+	padding: 8px 8px 0px 8px;
+	font-family: Helvetica,"Trebuchet MS",Helvetica,Arial,sans-serif;
+}
+#page #mainnav .nav .right #head-search label {
+	font-size: 12px;
+	color: #424242;
+}
+
+#app div.form {
+	width: 100%;
+	
+}
+#app div.form h4 {
+	color: #666666;
+	font-size: 13px;
+	margin: 0px 25px 15px;
+	font-weight: normal;
+}
+#app div.login {
+	margin: 10px auto;
+	width: 440px;
+}
+#app div.form form#login {
+	width: 440px;
+	border: solid 4px #409BDC;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+#app div.form form#login fieldset {
+	
+}
+#app div.form form fieldset legend {
+	color: #3B76F3;
+	font-size: 18px;
+	margin: 0px;
+	padding-top: 15px;
+}
+#app div.form form fieldset {
+	border: none;
+}
+#app div.form form fieldset ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-image: none;
+	list-style-type: none;
+	list-style-position: outside;
+}
+#app div.form form#login fieldset ul li {
+	margin: 8px 0px;
+	padding: 0px;
+}
+
+#app div.form form#login fieldset ul li label {
+	width: 150px;
+	display: inline-table;
+}
+
+
+#app div.form form#login fieldset ul li {
+	margin: 8px 0px;
+}
+
+#app div.form form#login fieldset ul li label {
+	width: 120px;
+}
+
+
+#app div.form form.app {
+	
+}
+#app div.form form.app fieldset {
+}
+
+#app div.form form.app fieldset .tag {
+	font-size: 11px;
+	display: block;
+	float: left;
+	padding: 2px 4px;
+	margin: 0px 5px 0px 0px;
+	background-color: #EBF1FE;
+	color: #666;
+}
+#app div.form form.app fieldset.options {
+	border: none;
+}
+#app div.form form.app fieldset.options ul {
+	margin: 0px;
+	margin-left: 25px;
+	padding: 0px;
+}
+#app div.form form.app fieldset.options ul li {
+}
+#app div.form form.app fieldset.options ul li div.label {
+	display: block;
+	float: left;
+	width: 20%;
+}
+#app div.form form.app fieldset.options ul li input {
+	width: auto;
+}
+#app div.form form.app fieldset h3 {
+	display: block;
+	width: 100%;
+	margin-bottom: 15px;
+}
+#app div.form form.app fieldset h3 a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #EBF1FE;
+	color: #409BDC;
+	display: block;
+	padding: 5px 10px 5px 25px;
+	font-size: 14px;
+	text-decoration: none;
+	line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/*  Nuevo estilo para div con estilos de formulario */
+#page #app div.form div#form_style fieldset h3 a {
+	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	display: block;
+	padding: 5px 10px 5px 25px;
+	font-size: 14px;
+	text-decoration: none;
+	line-height: 20px;
+	background-color: #DFEDCB;
+	color: #3E9114;
+}
+
+
+
+
+
+
+
+
+#app div.form form.app fieldset h3 a:hover {
+	
+}
+#app div.form form.app fieldset ul {
+	margin: 30px 0px 0px 25px;
+}
+#app div.form form.app fieldset ul li {
+	margin-bottom: 10px;
+	vertical-align: top;
+	clear: both;
+}
+#app div.form form.app fieldset ul li a {
+	
+}
+#app div.form form.app fieldset ul li div.title,
+#app div.form form.app fieldset ul li div.label {
+	display: block;
+	float: left;
+	width: 20%;
+	padding-right: 15px;
+	font-size: 12px;
+	border-radius: 0px;
+	background-color: transparent;
+	font-weight: normal;
+	text-shadow: none;
+	color: #333;
+}
+#app div.form form.app fieldset.data table tr td ul li div.label {
+	width: 30% !important;
+}
+#app div.form form.app fieldset.data table tr td ul li div.cell {
+	width: 60% !important;
+}
+#app div.form form.app fieldset.data ul li div.label label {
+	color: #666 !important;
+}
+#app div.form form.app fieldset ul li div.title label,
+#app div.form form.app fieldset ul li div.label label {
+	display: block;
+	width: 100%;
+	text-align: right;
+	font-size: 13px;
+	font-weight: bold;
+}
+#app div.form form.app fieldset ul li div.title label {
+	color: #666 !important;
+	display: block;
+	margin-top: 2px;
+}
+#app div.form form.app fieldset ul li div.label p.description {
+	color: #555555;
+	font-size: 11px;
+	margin: 0px;
+	padding: 0px;
+	text-align: right;
+	word-wrap: normal;
+	white-space:normal;
+}
+#app div.form form.app fieldset ul li div.cell {
+	display: inline-table;
+	width: 75%;
+	clear: right;
+	*float: left;
+}
+#app div.form form.app fieldset ul li div.cell div.path {
+	font-size: 13px;
+	color: #191919;
+}
+#app div.form form.app fieldset ul li div.cell label {
+	font-size: 12px;
+}
+#app div.form form.app fieldset ul li div.cell h5 {
+	display: inline;
+	color: #333;
+	font-size: 13px;
+	margin: 0px;
+	line-height: normal;
+}
+#app div.form form.app fieldset ul li div.cell h5 input {
+	margin-right: 8px;
+}
+#app div.form form.app fieldset ul li div.cell h5 a.inline_edit {
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	color: #0080ff;
+	padding: 6px 30px 6px 6px;
+	background: #fff url(../images/pencil.png) no-repeat scroll right 4px;
+}
+#app div.form form.app fieldset ul li div.cell h5 a.inline_edit:hover {
+
+	background: #fff url(../images/pencil.png) no-repeat scroll right -22px;
+}
+#app div.form form.app fieldset ul li div.cell p {
+	font-size: 12px;
+	color: #333;
+}
+#app div.form form.app fieldset ul li div.cell p a {
+	color: #008300;
+	text-decoration: none;
+	font-weight: bold;
+}
+#app div.form form.app fieldset ul li div.cell p a:hover {
+	text-decoration: underline;
+}
+#app div.form form.app fieldset.options ul li div.label {
+	display: block;
+	width: 20%;
+	float: left;
+	height: 10px;
+}
+#app div.form form.app fieldset.options ul li input {
+	width: auto;
+}
+#app div.form form.app fieldset ul li input[type=number].mini,
+#app div.form form.app fieldset ul li input[type=email].mini,
+#app div.form form.app fieldset ul li input[type=text].mini {
+	width: 80px;
+}
+#app div.form form.app fieldset ul li input[type=email],
+#app div.form form.app fieldset ul li input[type=text] {
+	width: 40%;
+	height: 26px;
+}
+#app div.form form.app fieldset ul li input[type=checkbox] {
+	margin-right: 8px;
+}
+#app div.form form.app fieldset ul li textarea {
+	width: 50%;
+	height: 100px;
+	margin: 0px;
+	padding: 5px;
+}
+
+#app div.form div.stdFormTable {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background: #EEEEEE none repeat scroll 0px 0px;
+	border: 5px solid #EEEEEE;
+	width: 95%;
+	margin: 0px auto;
+}
+#app div.form div.stdFormTable table {
+	border: 1px solid #555555;
+	text-align: left;
+	width: 100%;
+	font-size: 12px;
+	margin-bottom: 0px;
+}
+#app div.form div.stdFormTable table thead tr th {
+	background: #666666 url(../images/light.png) repeat-x scroll right -6px;
+	color: #FFF;
+	padding: 5px;
+	text-shadow: 0 -1px 0 #444444;
+	white-space: nowrap;
+}
+#app div.form div.stdFormTable table tbody tr td {
+	color: #555555;
+	padding: 5px;
+	text-align: left;
+	vertical-align: top;
+	border: none;
+	background-color: #FFFFFF;
+	background-image: none;
+}
+#app div.form div.stdFormTable table tbody tr:hover td {
+	background-color: #EEEEEE;
+}
+#app div.form div.stdFormTable table tbody tr td.opt a {
+	color: #5E9D09 !important;
+	margin: 0px 5px 0px 0px;
+	text-decoration: none;
+}
+#app div.form div.stdFormTable table tbody tr td.opt a:hover {
+	text-decoration: underline;
+}
+
+#app div.form div.stdFormTable table tfoot td {
+}
+#app div.form div.stdFormTable table tfoot td div.empty-list {
+	color: #5e5e5e;
+}
+
+/* ESTRUCTURA DE APLICACON, CONTENIDOS */
+#app div.content {
+	float: left;
+	width: 78%;
+	font-family: Helvetica,"Trebuchet MS",Helvetica,Arial,sans-serif;
+}
+#app div.menu {
+	float: right;
+	width: 20%;
+	margin-top: 50px;
+}
+#app div.menu a.button {
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #59595E;
+	color: #FFFFFF !important;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 7px;
+	padding: 5px 10px;
+	text-decoration: none;
+	text-shadow: 0px -1px 0px #59595E;
+	background: #666 url(../images/light.png) repeat-x 0px -6px;
+}
+#app div.menu a:hover.button {
+	background-color: #545454;
+}
+#app div.menu div.infobox {
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 2px solid #CCCCCC;
+	margin-top: 15px;
+}
+#app div.menu div.infobox div.title {
+	padding: 5px 10px;
+}
+#app div.menu div.infobox div.title h3 {
+	color: #666666;
+	font-size: 14px;
+	margin: 0px;
+	line-height: 20px;
+}
+#app div.menu div.infobox div.boxcontent {
+	background: none repeat scroll 0 0 #EEEEEE;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+	padding: 0px 10px;
+	color: #333333;
+}
+#app div.menu div.infobox div.boxcontent h4 {
+	font-size: 14px;
+	margin: 10px 0px;
+}
+#app div.menu div.infobox div.boxcontent p {
+	font-size: 12px;
+}
+#app div.menu div.infobox div.boxcontent table {
+	margin-bottom: 0px;
+}
+/* elementos app */
+#app div.content h2 {
+	font-size: 18px;
+}
+
+/* TABLAS LISTAS */
+
+#app div.content p.pagination {
+	margin: 10px 0px;
+	font-size: 12px;
+	width: 100%;
+	text-align: left;
+}
+#app div.content p.pagination a:link {
+	
+}
+
+#app div.content table.list {
+	border-top: solid 2px #CCCCCC;
+	width: 100%;
+	border-collapse: collapse;
+}
+#app div.content table.list caption {
+	caption-side: top;
+	text-align: left;
+}
+#app div.content table.list caption h5 {
+	width: auto;
+	float: left;
+	display: block;
+	margin: 0px;
+	font-size: 12px;
+	background-color: #CCC;
+	padding: 5px 10px;
+	
+	color: #666666;
+	background-image: url(../images/light.png);
+	background-position: 0px -7px;
+	text-shadow: 0px 1px 0px #FFFFFF;
+	
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+}
+
+#app div.content table.list tr th {
+	text-align: left;
+	padding: 6px 4px;
+	font-size: 13px;
+}
+#app div.content table.list tbody tr td {
+	font-size: 12px;
+	padding: 4px;
+	border-bottom: solid 1px #DDDDDD;
+}
+#app div.content table.list tbody tr td table.inner-table tbody tr td {
+	border-bottom: none !important;
+	padding-left: 0px !important;
+}
+
+#app div.content table.list tbody tr td a:link,
+#app div.content table.list tbody tr td a:visited,
+#app div.content table.list tbody tr td a:active {
+	color: #347FB4;
+	text-decoration: none;
+}
+#app div.content table.list tbody tr td a:hover {
+	color: #409BDC;
+}
+#app div.content table.list tbody tr td.opt a{
+	color: #5E9D09 !important;
+	display: block;
+	float: left;
+	padding: 3px 4px 2px 4px;
+	margin: 0px 5px 0px 0px;
+}
+#app div.content table.list tbody tr td.opt a.delete:hover {
+	color: #f00;
+}
+#app div.content table.list tbody tr td.opt a:hover {
+	background-color: #e1e1e1 !important;
+	text-shadow: 0px 1px 1px #59595E;
+	color: #5E9D09 !important;
+}
+#app div.content table.list tbody tr:hover {
+	background-color: #EEEEEE;
+}
+#app div.content table div.empty-list {
+	color: #666;
+	margin: 10px 5px;
+	font: 12px;
+}
+#app div.content table.list div.empty-list a {
+	color: #5E9D09 !important;
+	font: 12px;
+}
+
+/*PAGINACION*/
+#app div.content p.pagination {
+	margin: 10px 0px;
+	font-size: 12px;
+	width: 100%;
+	text-align: left;
+}
+#app div.content p.pagination a:link {
+	
+}
+
+#app div.pagination {
+	font-size: 12px;
+	color: #333;
+	margin-top: 20px;
+	text-align: right;
+}
+#app div.pagination a {
+	color: #5E9D09 !important;
+	padding: 4px;
+}
+#app div.pagination a:hover {
+	background-color: #f5fff3;
+}
+/**/
+a.button {
+	margin: 5px;
+	padding: 3px 5px;
+	border: 1px solid #CCC;
+	background: -moz-linear-gradient(center top , #FFFFFF, #EFEFEF) repeat scroll 0 0 #F6F6F6;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #666666 !important;
+}
+.smalltext {
+	font-size: 12px;
+}
+a.clear_button {
+	color: #999;
+}
+a:hover.button {
+	-moz-box-shadow: 0px 0px 3px #999999;
+	-webkit-box-shadow: 0px 0px 3px #999999;
+	box-shadow: 0px 0px 3px #999999;
+	border: 1px solid #666;
+	color: #666;
+	text-decoration: none !important;
+}
+a:active.button {
+	color: #000;
+}
+a.app_button {
+	margin: 0px;
+	padding: 6px 10px 6px 5px;
+	border: 1px solid #CCC;
+	background: -moz-linear-gradient(center top , #FFFFFF, #EFEFEF) repeat scroll 0 0 #FFFFFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #666666;
+	font-size: 13px;
+	font-weight: normal;
+	font-style: normal;
+	width: 20px;
+}
+a:hover.app_button {
+	background: -moz-linear-gradient(center top , #FFFFFF, #EFEFEF) repeat scroll 0 0 #F6F6F6;
+	border: 1px solid #666;
+	-moz-box-shadow: 0px 0px 3px #999999;
+}
+a.app_button span {
+	padding: 3px 5px;
+	position: relative;
+	top: 1px;
+}
+#footer {
+	width: 100%;
+	margin: 50px 0px 0px 0px;
+	border-top: 2px solid #409BDC;
+	font-family: Helvetica,"Trebuchet MS",Helvetica,Arial,sans-serif;
+}
+#footer h3 {
+	font-size: 13px;
+	color: #333;
+}
+
+/* VENTANAS MODALES Y ALERTAS */
+
+/* ALERTAS */
+div.inline_alert {
+	color: #3D3F3F;
+	font: bold 87.5%/1.571 Helvetica,"Arial",sans-serif;
+	background-color: #d5d5d5;
+	width: 40%;
+	margin: 0px auto;
+	padding: 10px;
+	overflow: auto;
+	position: absolute;
+	top: 0px;
+	left: 25%;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottompright: 5px;
+	
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+div.inline_alert .close {
+	clear: none;
+	display: block;
+	width: 14px;
+	float: right;
+	text-shadow: 0 1px 0 #CCC;
+	color: #5e5e5e;
+	text-decoration: none;
+}
+div.inline_alert .close:hover {
+	color: #c02808;
+}
+div.inline_alert h4 {
+	margin: 0px auto;
+	width: 93%;
+	text-align: center;
+	text-shadow: 0 1px 0 #FFFFFF;
+	float: left;
+}
+div.inline_alert h4 span {
+	color: #5e5e5e;
+}
+div.inline_alert h4 a {
+	color: #5E9D09;
+	text-decoration: none;
+}
+div.inline_alert h4 a:hover {
+	text-decoration: underline;
+}
+/* ventanas modales */
+.jqmWindow a.modal_close_bluebg {
+	background: url(../images/close_icon_blue_bg.gif) no-repeat 0 0;
+	float: right;
+	width: 9px;
+	height: 10px;
+	display: block;
+	text-indent: -9999px;
+	position: relative;
+	top: 3px;
+	padding: 0px !important;
+}
+.jqmWindow a:hover.modal_close_bluebg {
+	background: url(../images/close_icon_blue_bg.gif) no-repeat -9px 0;
+}
+.jqmWindow {
+    display: none;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 600px;
+    background-color: #EEE;
+    padding: 0px;
+    z-index: 3000;
+}
+.jqmWindow p {
+	color: #333333;
+}
+
+
+.jqmWindow h3 {
+	font-family: Arial;
+	color: #fff !important;
+	display: block;
+	margin: 0px !important;
+	padding: 5px 8px  !important;
+	-moz-box-shadow: 0px 0px 3px #999999;
+	background: url("../images/light.png") repeat-x scroll 0 -6px #409BDC  !important;
+	font-size: 13px;
+	width: auto !important;
+}
+
+
+
+.jqmOverlay { background-color: #000; width: 100%; height: 100%;
+	position: fixed; z-index: 2999; top: 0px; left: 0px;
+}
+
+/* Fixed posistioning emulation for IE6
+     Star selector used to hide definition from browsers other than IE6
+     For valid CSS, use a conditional include instead */
+* html .jqmWindow {
+     position: absolute;
+     top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px');	
+}
+
+#modalcontent {
+	background-color: #FFF;
+	margin:5px;
+	font-family: Arial;
+	border: 1px solid #ccc;
+	padding: 15px;
+}
+#modalcontent .instruction {
+	color: #5e5e5e;
+}
+#modalcontent h4 {
+	font-size: 14px;
+	margin: 10px 0px;
+}
+#modalcontent > h4 {
+	margin-top: 0px;
+}
+
+#modalcontent p {
+	margin-top: 0px;
+	font-size: 12px;
+}
+#modalcontent div.pop_jxresult {
+	color: #5E9D09;
+	padding: 5px 0px 15px 0px;
+	font-weight: bold;
+}
+#modalcontent a {
+	color: #409BDC;
+	text-decoration:none;
+}
+#modalcontent a.current {
+	font-weight:bold;
+}
+
+#modalcontent ul {
+	font-size: 12px;
+	margin: 0px;
+	padding-left: 20px;
+}
+#modalcontent ul li {
+	list-style-type: none;
+	list-style-position: inside;
+	padding: 3px 0px;
+}
+#modalcontent ul li ul li:hover {
+	background-color: #EEEEEE;
+}
+#modalcontent form fieldset {
+	border: none;
+}
+#modalcontent form fieldset.options ul {
+	margin-top: 0px !important;
+}
+#modalcontent form fieldset ul {
+	margin: 20px 0px !important;
+	padding: 0px !important;
+}
+#modalcontent form fieldset > ul {
+	margin: 0px !important;
+}
+#modalcontent form fieldset ul li {
+	margin: 0px 0px 10px 0px;
+	vertical-align: top;
+	padding: 0px;
+	width: 100%;
+}
+#modalcontent form fieldset ul li div.label {
+	width: 20% !important;
+	display: inline-table;
+}
+#modalcontent form fieldset ul li div.label label {
+	position: relative;
+	top: 3px;
+	color: #666;
+}
+#modalcontent form fieldset ul li div.cell {
+	width: 60% !important;
+	display: inline-table;
+}
+#modalcontent form fieldset ul li div input[type=email],
+#modalcontent form fieldset ul li div input[type=text] {
+	width: 95% !important;
+}
+
+#app div.form form.app fieldset ul li a.cancel {
+	color: #666666;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+	display: inline-table;
+	padding-left: 20px;
+}
+#app div.form form.app fieldset ul li a.cancel:hover {
+	color: #990000;
+	text-decoration: underline;
+}

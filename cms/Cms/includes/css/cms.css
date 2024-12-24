@@ -1,0 +1,311 @@
+/*estilos para jquery io*/
+body .ui-widget{ font: 63% "Trebuchet MS", sans-serif;}
+.demoHeaders { margin-top: 2em; }
+#dialog_link {padding: .4em 1em .4em 20px;text-decoration: none;position: relative;}
+#dialog_link span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
+
+/* -- */
+
+.inline {
+	display: inline;
+}
+div.content div.section {
+	border: 1px solid #CCCCCC;
+	overflow: hidden;
+	margin: 10px 0px 20px 0px;
+}
+div.content div.section div.information {
+	width: 100%;
+	float: left;
+	border-right: 1px solid #CCC;
+}
+div.content div.section div.information h3 {
+	background-color: #F4F4F4;
+	margin: 0px;
+	padding: 10px;
+	color: #333333;
+	font: bold 14px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-transform: uppercase;
+}
+div.content div.section div.information h3 a {
+	text-decoration: none;
+	color: #333333;
+}
+div.content div.section div.information h3 a:hover {
+	text-decoration: underline;
+}
+div.content div.section div.information h3 .button {
+	float: right;
+	font-size: 10px;
+	margin: 0px 0px 0px 6px;
+}
+div.content div.section div.information table {
+	margin: 15px;
+	width: 100%;
+}
+div.content div.section div.information table tr th {
+	font-size: 12px;
+	text-align: left;
+	padding: 8px 4px;
+}
+div.content div.section div.information table tbody tr:nth-child(2n+2) {
+	background-color: #f5f5f5;
+}
+div.content div.section div.information table tbody tr td {
+	font-size: 12px;
+	padding: 4px 4px;
+}
+div.content div.section div.information table tbody tr td.opt a {
+	color: #5E9D09 !important;
+	margin: 0px 10px 0px 0px;
+	text-decoration: none;
+}
+div.content div.section div.information table tbody tr td.opt a:hover {
+	text-decoration: underline;
+}
+div.content div.section div.information table tbody tr:hover {
+	background-color: #EEEEEE;
+}
+div.content div.section div.options {
+	display: none;
+	width: 19%;
+	float: left;
+	padding: 10px;
+}
+
+a.page_edit_icon span{
+	background: url(../images/cms/page_edit.png) no-repeat 4px 1px;
+	padding-left: 25px;
+}
+a.page_edit_icon {
+	width: 100%;
+}
+img.thumb_img {
+	border: 1px solid #ccc;
+	margin: 10px 15px 10px 0px;
+	padding: 2px;
+}
+ul.sorteable_galery {
+	overflow: auto;
+}
+ul.sorteable_galery li div.img div.opt {
+	height: 28px;
+}
+ul.sorteable_galery li div.img div.opt a {
+	display: none;
+}
+ul.sorteable_options li div.img div.opt a {
+	display: inline-block;
+}
+div.galery {
+	background-color: #f6f6f6;
+	padding: 10px 0px 10px 0px;
+}
+ul.imagecollection {
+	margin: 0px 10px 10px 10px !important;
+	overflow: auto;
+}
+ul.imagecollection li {
+	width: 105px; clear: none !important; height: 110px;
+}
+ul.imagecollection li div.img {
+	width: 95px;
+	height: 97px;
+	display: block;
+	padding: 5px 0px 0px 5px;
+	background-color: #eaeaea;
+	margin-right: 3px;
+}
+
+ul.imagecollection li div.img a.delete {
+	overflow: hidden;
+	text-indent: -1000em;
+	width: 16px;
+	height: 16px;
+	display: block;
+	margin: 4px;
+	background: url(../images/icn_img_delete_hover.gif) no-repeat left top;
+	float: left;
+}
+ul.imagecollection li div.img a.delete:hover {
+	background: url(../images/icn_img_delete_hover.gif) no-repeat left bottom;
+}
+
+ul.imagecollection li div.img a.imgconf {
+	overflow: hidden;
+	text-indent: -1000em;
+	width: 16px;
+	height: 16px;
+	display: block;
+	margin: 4px;
+	background: url(../images/picture_edit.png) no-repeat left top;
+	float: left;
+}
+ul.imagecollection li div.img a.imgconf:hover {
+	background: url(../images/picture_edit.png) no-repeat left bottom;
+}
+
+
+/* MENUS */
+
+div.menuList table tbody tr:hover td {
+	background: #fff !important;
+}
+div.menuList table tbody tr td {
+	padding: 5px 20px 5px 0px !important;
+}
+div.menuList table tbody tr td ul {
+	padding: 0px 0px 0px 0px;
+}
+div.menuList table tbody tr td ul li {
+	padding: 3px 0px 3px 15px;
+	margin: 2px 0px 2px 2px;
+	list-style-type: none;
+	list-style-position: inside;
+}
+div.menuList table tbody tr td ul li h3,
+div.menuList table tbody tr td ul li h4 {
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	margin: 5px 0px 5px 5px !important;
+	padding: 4px 0px 4px 4px !important;
+}
+div.menuList table tbody tr td ul li h3 {
+	margin-top: 0px;
+}
+div.menuList table tbody tr td ul li h4 {
+	margin: 0px !important;
+	padding: 3px;
+}
+div.menuList table tbody tr td ul li h3:hover,
+div.menuList table tbody tr td ul li h4:hover {
+	background-color: #F3F3F3;
+}
+div.menuList table tbody tr td ul li h3 a,
+div.menuList table tbody tr td ul li h4 a {
+	float: right;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 12px;
+	padding-right: 5px;
+	color: #5E9D09 !important;
+}
+div.menuList table tbody tr td ul li h3 span,
+div.menuList table tbody tr td ul li h4 span{
+	padding: 2px 15px 2px 0px;
+	float: right;
+	font-size: 12px;
+}
+
+/* POP FORMS */
+#modalcontent h4 {
+	margin-top: 0px;
+}
+#modalcontent form fieldset {
+	border: none;
+	margin: 0px;
+}
+#modalcontent div.galerylist div.box {
+	display: block;
+	width: 130px;
+	float: left;
+	height: 140px;
+}
+#modalcontent div.galerylist div.box div.img {
+	height: 90px;
+}
+#modalcontent div.galerylist div.box p {
+	margin-top: 0px;
+}
+#modalcontent div input[type="submit"] {
+	width: auto !important;
+}
+#modalcontent .thumb_img {
+	margin-left: 20px;
+}
+
+#app fieldset.vertical div.cell input[type=text] {
+	width: 90%;
+}
+#app form.app fieldset.vertical div.cell input.date {
+	width: 100px;
+}
+
+#app fieldset.vertical div.cell label.date {
+	display: inline-block;
+	padding-right: 25px;
+	background: url(../images/calendar.png) top right no-repeat;
+}
+
+/* ESTILOS CAMPO LINK A PÁGINA INTERNA */
+div.cell p.linkactual {
+	margin: 0px;
+	padding: 5px;
+	border-top: 1px solid #e6e6e6;
+}
+div.cell div.linkfield {
+	font-size: 12px;
+}
+
+/*ESTILOS DE PINES*/
+span.selected_ping {
+	display: inline-table;
+	padding: 5px; width: auto;
+}
+span.selected_ping input {
+	width: auto !important;
+}
+span.selected_ping a.borrar_pin {
+	display: block;
+	float: left;
+	width: 15px;
+	font: bold 14px "Lucida Grande", Lucida, Verdana, sans-serif;
+	color: #da0000;
+	text-decoration: none;
+}
+span.selected_ping a.borrar_pin:hover {
+	color: #a60000;
+}
+/*demo page css*/
+.ui-widget{ font: 62.5% "Trebuchet MS", sans-serif;}
+.demoHeaders { margin-top: 2em; }
+#dialog_link {padding: .4em 1em .4em 20px;text-decoration: none;position: relative;}
+#dialog_link span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
+ul#icons {margin: 0; padding: 0;}
+ul#icons li {margin: 2px; position: relative; padding: 4px 0; cursor: pointer; float: left;  list-style: none;}
+ul#icons span.ui-icon {float: left; margin: 0 4px;}
+.style1 {font-weight: bold}
+
+
+/*MENU LATERAL*/
+div.menu p.instruction {
+	font-size: 13px;
+}
+div.menu p a{
+	color: #008300;
+	text-decoration: none;
+}
+div.menu p a:hover {
+	text-decoration: underline;
+}
+
+/*Alertas dentro del contenido*/
+
+div.form form div.cell p.alert {
+	font-size: 12px;
+	margin: 0px 0px 10px 0px;
+	color: #ff7d00 !important;
+}
+
+
+.w-32  {
+	width: 8rem;
+}
+.h-24 {
+	height: 6rem;
+}
+.object-cover {
+    -o-object-fit: cover;
+    object-fit: cover;
+}
